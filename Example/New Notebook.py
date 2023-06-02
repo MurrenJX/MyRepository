@@ -1,3 +1,5 @@
 # Databricks notebook source
-# MAGIC %sql
-# MAGIC SELECT * FROM diamonds
+name = "John"
+print(f"Hello {name}")
+%run ./Notebook_B
+print(f"Welome back {full_name}")
